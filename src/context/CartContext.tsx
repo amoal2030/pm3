@@ -143,7 +143,7 @@ export const CartProvider: React.FC<{ children: React.ReactNode }> = ({ children
     });
 
     const message = [
-      `*طلب جديد من موقع بروستد مشوار الفرسان* 🍗`,
+      `*طلب جديد من موقع بروستد مشوار بترولي* 🍗`,
       `---------------------------------`,
       `*نوع الاستلام:* ${getOrderTypeLabel(orderType)}`,
       customerName ? `*اسم العميل:* ${customerName}` : '',

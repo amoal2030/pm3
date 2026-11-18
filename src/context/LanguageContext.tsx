@@ -13,12 +13,12 @@ export interface Translations {
 export const translations = {
   // Brand & Header
   brand_name: {
-    ar: 'بروستد مشوار الفرسان',
-    en: 'Meshwar Al Forsan Broasted',
+    ar: 'بروستد مشوار بترولي',
+    en: 'Meshwar Petroli Broasted',
   },
   brand_name_en: {
-    ar: 'Meshwar Al Forsan Broasted',
-    en: 'بروستد مشوار الفرسان',
+    ar: 'Meshwar Petroli Broasted',
+    en: 'بروستد مشوار بترولي',
   },
   tagline: {
     ar: 'اتصل قبل أن تصل',
@@ -409,16 +409,16 @@ export const translations = {
 
   // About & Location
   about_tag: {
-    ar: 'عن مشوار الفرسان',
-    en: 'About Meshwar Al Forsan',
+    ar: 'عن مشوار بترولي',
+    en: 'About Meshwar Petroli',
   },
   about_title: {
     ar: 'طعم أصيل، جودة مضمونة، وخدمة سريعة',
     en: 'Authentic Taste, Guaranteed Quality & Swift Service',
   },
   about_description: {
-    ar: 'في مطعم بروستد مشوار الفرسان، نحرص على تقديم أشهى وجبات البروستد المقرمش المصنوعة من الدجاج الطازج اليومي، إضافة إلى المشويات المتبلة على الفحم بالأسياخ، والشاورما والفطائر والعصائر الطبيعية 100%. شعارنا الدائم «اتصل قبل أن تصل» لضمان استلام وجبتك ساخنة وطازجة بدون أي انتظار.',
-    en: 'At Meshwar Al Forsan Broasted, we are committed to delivering the crispest golden broasted chicken prepared from daily fresh poultry, charcoal-grilled skewers, savory shawarma, pies, and 100% fresh natural juices. Our motto is "Call Before You Arrive" to ensure your meal is served hot and ready without delay.',
+    ar: 'في مطعم بروستد مشوار بترولي، نحرص على تقديم أشهى وجبات البروستد المقرمش المصنوعة من الدجاج الطازج اليومي، إضافة إلى المشويات المتبلة على الفحم بالأسياخ، والشاورما والفطائر والعصائر الطبيعية 100%. شعارنا الدائم «اتصل قبل أن تصل» لضمان استلام وجبتك ساخنة وطازجة بدون أي انتظار.',
+    en: 'At Meshwar Petroli Broasted, we are committed to delivering the crispest golden broasted chicken prepared from daily fresh poultry, charcoal-grilled skewers, savory shawarma, pies, and 100% fresh natural juices. Our motto is "Call Before You Arrive" to ensure your meal is served hot and ready without delay.',
   },
   about_pillar_1: {
     ar: 'دجاج ولحوم طازجة يومياً بتتبيلات سرية حصرية',
@@ -489,8 +489,8 @@ export const translations = {
     en: 'Contact Information',
   },
   footer_rights: {
-    ar: 'جميع الحقوق محفوظة لمطعم بروستد مشوار الفرسان',
-    en: 'All rights reserved - Meshwar Al Forsan Broasted',
+    ar: 'جميع الحقوق محفوظة لمطعم بروستد مشوار بترولي',
+    en: 'All rights reserved - Meshwar Petroli Broasted',
   },
   footer_address_short: {
     ar: 'الدمام - حي الفرسان - محطة بترو هلا',

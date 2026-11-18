@@ -20,7 +20,7 @@ export const FeaturedHighlights: React.FC<FeaturedHighlightsProps> = ({
           <div>
             <div className="inline-flex items-center gap-1.5 text-xs font-bold text-amber-400 mb-2">
               <Sparkles className="w-3.5 h-3.5" />
-              <span>مختارات مشوار الفرسان</span>
+              <span>مختارات مشوار بترولي</span>
             </div>
             <h2 className="text-2xl sm:text-3xl font-black text-white">
               الأصناف الأكثر تميزاً وطلباً
@@ -41,7 +41,7 @@ export const FeaturedHighlights: React.FC<FeaturedHighlightsProps> = ({
             <div className="h-44 overflow-hidden relative">
               <img
                 src={`${import.meta.env.BASE_URL}assets/images/broasted_chicken_hero_1792665160048.jpg`}
-                alt="بروستد الفرسان"
+                alt="بروستد مشوار بترولي"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 referrerPolicy="no-referrer"
               />
@@ -113,7 +113,7 @@ export const FeaturedHighlights: React.FC<FeaturedHighlightsProps> = ({
             <div className="h-44 overflow-hidden relative">
               <img
                 src={`${import.meta.env.BASE_URL}assets/images/arabic_shawarma_plate_1792665161698.jpg`}
-                alt="شاورما الفرسان"
+                alt="شاورما بترولي"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 referrerPolicy="no-referrer"
               />
@@ -128,7 +128,7 @@ export const FeaturedHighlights: React.FC<FeaturedHighlightsProps> = ({
                   شاورما صاروخ وصحن عربي
                 </h3>
                 <p className="text-xs text-neutral-400 mt-1">
-                  شاورما ساخنة بخبز الصاج المحمص مع الثوم والمخلل وبطاطس الفرسان.
+                  شاورما ساخنة بخبز الصاج المحمص مع الثوم والمخلل وبطاطس بترولي.
                 </p>
               </div>
               <div className="mt-3 pt-3 border-t border-neutral-800 flex items-center justify-between text-xs">

@@ -103,8 +103,8 @@ export const AboutAndLocation: React.FC = () => {
               <a
                 href={`https://wa.me/${RESTAURANT_INFO.whatsapp}?text=${encodeURIComponent(
                   isAr
-                    ? 'السلام عليكم، أود الطلب من بروستد مشوار الفرسان'
-                    : 'Hello, I would like to order from Meshwar Al Forsan Broasted'
+                    ? 'السلام عليكم، أود الطلب من بروستد مشوار بترولي'
+                    : 'Hello, I would like to order from Meshwar Petroli Broasted'
                 )}`}
                 target="_blank"
                 rel="noreferrer"

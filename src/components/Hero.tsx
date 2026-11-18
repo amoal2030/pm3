@@ -54,8 +54,8 @@ export const Hero: React.FC<HeroProps> = ({ onExploreMenu }) => {
               <a
                 href={`https://wa.me/${RESTAURANT_INFO.whatsapp}?text=${encodeURIComponent(
                   isAr
-                    ? 'السلام عليكم، أود الاستفسار والطلب من مطعم بروستد مشوار الفرسان'
-                    : 'Hello, I would like to inquire and place an order from Meshwar Al Forsan Broasted'
+                    ? 'السلام عليكم، أود الاستفسار والطلب من مطعم بروستد مشوار بترولي'
+                    : 'Hello, I would like to inquire and place an order from Meshwar Petroli Broasted'
                 )}`}
                 target="_blank"
                 rel="noreferrer"
@@ -91,7 +91,7 @@ export const Hero: React.FC<HeroProps> = ({ onExploreMenu }) => {
             <div className="relative rounded-2xl overflow-hidden border border-slate-200 dark:border-neutral-800 bg-white dark:bg-neutral-900 shadow-xl group">
               <img
                 src={`${import.meta.env.BASE_URL}assets/images/broasted_chicken_hero_1792665160048.jpg`}
-                alt={isAr ? 'بروستد مشوار الفرسان الذهبي المقرمش' : 'Golden Crispy Broasted Chicken'}
+                alt={isAr ? 'بروستد مشوار بترولي الذهبي المقرمش' : 'Golden Crispy Broasted Chicken'}
                 className="w-full h-80 sm:h-96 object-cover group-hover:scale-105 transition-transform duration-700"
                 loading="eager"
                 referrerPolicy="no-referrer"
@@ -103,7 +103,7 @@ export const Hero: React.FC<HeroProps> = ({ onExploreMenu }) => {
                 <div className="w-8 h-6 rounded-md overflow-hidden bg-amber-400/20 p-0.5 border border-amber-400/40 shrink-0">
                   <img src={RESTAURANT_INFO.logo} alt="Logo" className="w-full h-full object-contain" />
                 </div>
-                <span className="text-amber-400">{isAr ? 'بروستد مشوار الفرسان' : 'Meshwar Al Forsan'}</span>
+                <span className="text-amber-400">{isAr ? 'بروستد مشوار بترولي' : 'Meshwar Petroli'}</span>
               </div>
 
               {/* Overlay Badge */}
@@ -118,7 +118,7 @@ export const Hero: React.FC<HeroProps> = ({ onExploreMenu }) => {
                   </span>
                 </div>
                 <h3 className="text-base font-bold text-white mt-1">
-                  {isAr ? 'بروستد الفرسان المقرمش (عادي / حراق)' : 'Al Forsan Crispy Broasted (Regular / Spicy)'}
+                  {isAr ? 'بروستد مشوار بترولي المقرمش (عادي / حراق)' : 'Meshwar Petroli Crispy Broasted (Regular / Spicy)'}
                 </h3>
                 <p className="text-xs text-neutral-300 mt-0.5">
                   {isAr

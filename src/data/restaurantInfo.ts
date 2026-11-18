@@ -17,8 +17,8 @@ export interface RestaurantInfo {
 const BASE = import.meta.env.BASE_URL || '/';
 
 export const RESTAURANT_INFO: RestaurantInfo = {
-  name: "بروستد مشوار الفرسان",
-  nameEn: "Meshwar Al Forsan Broasted",
+  name: "بروستد مشوار بترولي",
+  nameEn: "Meshwar Petroli Broasted",
   tagline: "اتصل قبل أن تصل",
   subTagline: "أشهى بروستد مقرمش، مشويات طازجة على الفحم، وشاورما وفطائر وعصائر طبيعية على أصولها في حي الفرسان بالدمام",
   whatsapp: "966530111352",
