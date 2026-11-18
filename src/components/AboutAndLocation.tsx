@@ -70,7 +70,7 @@ export const AboutAndLocation: React.FC = () => {
                 <span>{t('location_title')}</span>
               </div>
               <h3 className="text-xl sm:text-2xl font-black text-slate-900 dark:text-white">
-                {isAr ? RESTAURANT_INFO.address : 'Petro Hala Station - Al Forsan - Dammam Riyadh Highway'}
+                {isAr ? RESTAURANT_INFO.address : 'Al Anwar - Dammam Riyadh Highway - Dammam'}
               </h3>
               <p className="text-xs sm:text-sm text-slate-600 dark:text-neutral-300 mt-2">
                 {t('location_highway_desc')}
@@ -84,7 +84,7 @@ export const AboutAndLocation: React.FC = () => {
                   {isAr ? 'خرائط Google:' : 'Google Maps:'}
                 </span>
                 <span className="text-xs text-amber-600 dark:text-amber-400 font-mono font-bold">
-                  {isAr ? 'حي الفرسان · الدمام' : 'Al Forsan · Dammam'}
+                  {isAr ? 'حي الأنوار · الدمام' : 'Al Anwar · Dammam'}
                 </span>
               </div>
               <a

@@ -83,7 +83,7 @@ export const Footer: React.FC = () => {
               </a>
               <div className="flex items-start gap-2 text-slate-600 dark:text-neutral-400 pt-1">
                 <MapPin className="w-3.5 h-3.5 text-orange-500 dark:text-orange-400 shrink-0 mt-0.5" />
-                <span>{isAr ? RESTAURANT_INFO.address : 'Petro Hala Station - Al Forsan, Dammam'}</span>
+                <span>{isAr ? RESTAURANT_INFO.address : 'Al Anwar - Dammam Riyadh Highway, Dammam'}</span>
               </div>
             </div>
           </div>

@@ -25,12 +25,12 @@ export const translations = {
     en: 'Call Before You Arrive',
   },
   subtagline: {
-    ar: 'أشهى بروستد مقرمش، مشويات طازجة على الفحم، وشاورما وفطائر وعصائر طبيعية على أصولها في حي الفرسان بالدمام',
-    en: 'Delicious crispy broasted, charcoal-grilled skewers, shawarma, pies, and 100% natural fresh juices in Al Forsan, Dammam',
+    ar: 'أشهى بروستد مقرمش، مشويات طازجة على الفحم، وشاورما وفطائر وعصائر طبيعية على أصولها في حي الأنوار بالدمام',
+    en: 'Delicious crispy broasted, charcoal-grilled skewers, shawarma, pies, and 100% natural fresh juices in Al Anwar, Dammam',
   },
   station_location_tag: {
-    ar: 'محطة بترو هلا - حي الفرسان',
-    en: 'Petro Hala Station - Al Forsan',
+    ar: 'حي الأنوار - طريق الدمام الرياض السريع',
+    en: 'Al Anwar - Dammam Riyadh Highway',
   },
 
   // Navbar
@@ -351,12 +351,12 @@ export const translations = {
     en: 'Pickup & Order Method:',
   },
   cart_type_car_pickup: {
-    ar: '🚗 اتصل قبل أن تصل (استلام من السيارة / المحطة)',
-    en: '🚗 Call Before Arriving (Car Pickup at Station)',
+    ar: '🚗 اتصل قبل أن تصل (استلام من السيارة / الفرع)',
+    en: '🚗 Call Before Arriving (Car Pickup at Branch)',
   },
   cart_type_dine_in: {
-    ar: '🍽️ استلام وسفري من الفرع (محطة بترو هلا)',
-    en: '🍽️ Takeaway from Branch (Petro Hala)',
+    ar: '🍽️ استلام وسفري من الفرع (حي الأنوار)',
+    en: '🍽️ Takeaway from Branch (Al Anwar)',
   },
   cart_type_delivery: {
     ar: '🛵 توصيل إلى موقعي',
@@ -437,16 +437,16 @@ export const translations = {
     en: 'Working Hours:',
   },
   working_hours_val: {
-    ar: 'يومياً من الساعة 11:00 ظهراً حتى 05:00 فجراً',
-    en: 'Daily: 11:00 AM to 05:00 AM',
+    ar: 'يومياً من الساعة 10 صباحاً إلى الساعة 5 صباحاً',
+    en: 'Daily: 10:00 AM to 05:00 AM',
   },
   location_title: {
     ar: 'موقعنا الجغرافي',
     en: 'Our Geographic Location',
   },
   location_highway_desc: {
-    ar: 'موقع متميز يسهل الوصول إليه على طريق الدمام - الرياض السريع داخل محطة بترو هلا بحي الفرسان.',
-    en: 'Convenient prime location on the Dammam - Riyadh Highway, inside Petro Hala Station in Al Forsan district.',
+    ar: 'موقع متميز يسهل الوصول إليه على طريق الدمام - الرياض السريع في حي الأنوار بالدمام.',
+    en: 'Convenient prime location on the Dammam - Riyadh Highway in Al Anwar district, Dammam.',
   },
   open_google_maps: {
     ar: 'فتح الموقع مباشرة على خرائط Google',
@@ -493,8 +493,8 @@ export const translations = {
     en: 'All rights reserved - Meshwar Petroli Broasted',
   },
   footer_address_short: {
-    ar: 'الدمام - حي الفرسان - محطة بترو هلا',
-    en: 'Dammam - Al Forsan - Petro Hala Station',
+    ar: 'الدمام - حي الأنوار - طريق الدمام الرياض السريع',
+    en: 'Dammam - Al Anwar - Dammam Riyadh Highway',
   },
   back_to_top_aria: {
     ar: 'العودة لأعلى الصفحة',

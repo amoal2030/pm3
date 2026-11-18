@@ -127,7 +127,7 @@ export const CartProvider: React.FC<{ children: React.ReactNode }> = ({ children
       case 'car_pickup':
         return '🚗 استلام من السيارة';
       case 'dine_in':
-        return '🍽️ استلام وسفري من الفرع (محطة بترو هلا)';
+        return '🍽️ استلام وسفري من الفرع (حي الأنوار)';
       case 'delivery':
         return '🚗 استلام من السيارة';
     }
