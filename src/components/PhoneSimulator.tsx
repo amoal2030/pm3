@@ -345,7 +345,7 @@ export const PhoneSimulator: React.FC<PhoneSimulatorProps> = ({
                 <div className="px-4 py-2.5 bg-white border-b border-[#C29B38]/20 flex items-center justify-between z-10 shadow-xs">
                   <div className="flex items-center gap-2.5">
                     <img
-                      src="/assets/aistudio/1792776933838_1__5a26254c.png"
+                      src={`${import.meta.env.BASE_URL}assets/aistudio/1792776933838_1__5a26254c.png`}
                       alt="شعار صنوف"
                       className="w-8 h-8 rounded-full object-contain border border-[#C29B38]/30 shadow-2xs bg-white"
                     />

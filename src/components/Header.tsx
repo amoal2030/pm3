@@ -19,7 +19,7 @@ export const Header: React.FC<HeaderProps> = ({ onOpenContact, onScrollTo }) => 
           className="flex items-center gap-3 whitespace-nowrap shrink-0 group py-0.5"
         >
           <img
-            src="/assets/aistudio/1792776933838_1__5a26254c.png"
+            src={`${import.meta.env.BASE_URL}assets/aistudio/1792776933838_1__5a26254c.png`}
             alt="شعار منصة صنوف SUNOUF"
             className="w-10 h-10 object-contain rounded-full border border-[#C29B38]/40 shadow-xs group-hover:scale-105 transition-transform"
           />

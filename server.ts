@@ -28,8 +28,8 @@ if (!fs.existsSync(UPLOADS_DIR)) {
 const publicDir = path.resolve(process.cwd(), 'public');
 app.use('/uploads', express.static(path.join(publicDir, 'uploads')));
 app.use('/menu-images', express.static(path.join(publicDir, 'menu-images')));
-app.use('/pm2/uploads', express.static(path.join(publicDir, 'uploads')));
-app.use('/pm2/menu-images', express.static(path.join(publicDir, 'menu-images')));
+app.use('/pm3/uploads', express.static(path.join(publicDir, 'uploads')));
+app.use('/pm3/menu-images', express.static(path.join(publicDir, 'menu-images')));
 
 // Lazy GoogleGenAI server client (avoids throwing on startup if GEMINI_API_KEY is unset)
 function getAiClient(): GoogleGenAI {
@@ -504,6 +504,7 @@ async function startServer() {
     });
     app.use(vite.middlewares);
   } else {
+    app.use('/pm3', express.static('dist'));
     app.use(express.static('dist'));
     app.get('*', (_req, res) => {
       res.sendFile(path.resolve('dist/index.html'));

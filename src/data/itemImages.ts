@@ -43,7 +43,7 @@ export const ITEM_DEDICATED_IMAGES: Record<string, string> = {
   'br-14': 'https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=700&q=80', // صحن فيليه حراق
   'br-15': 'https://images.unsplash.com/photo-1534604973900-c43ab4c2e0ab?auto=format&fit=crop&w=700&q=80', // مكسي فود
   'br-16': 'https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=700&q=80', // صحن ثوم
-  'br-17': '/assets/aistudio/image_b41fac47.png', // مقبلات
+  'br-17': `${BASE}assets/aistudio/image_b41fac47.png`, // مقبلات
   'br-18': 'https://images.unsplash.com/photo-1577805947697-89e18249d767?auto=format&fit=crop&w=700&q=80', // حمص
   'br-19': 'https://images.unsplash.com/photo-1541529086526-db283c563270?auto=format&fit=crop&w=700&q=80', // متبل
   'br-20': 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=700&q=80', // سلطة خضرا
@@ -229,7 +229,7 @@ export function sanitizeDirectImageUrl(rawUrl: string | undefined | null): strin
   if (trimmed.includes('your-menu-site.com/images/')) {
     const filename = trimmed.split('your-menu-site.com/images/')[1];
     if (filename) {
-      return `/images/sandwiches/${filename}`;
+      return `${BASE}images/sandwiches/${filename}`;
     }
   }
 

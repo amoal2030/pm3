@@ -1,4 +1,6 @@
 // Auto-generated mapping for Pizza (pz-1..23), Pies & Pastries (pi-1..29), and Skewers (sk-1..9)
+const BASE = (typeof import.meta !== 'undefined' && import.meta.env?.BASE_URL) || '/';
+
 export const PIZZA_PIES_SKEWERS_IMAGES: Record<string, string> = {
   "pz-1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa3GN8r5Q1V0oM04LqU_BUQnfe_uqDkEJADLpwQ-flmw&s",
   "pz-2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR3RLnGzmQJlzBWoX4VTazaN__10GG_VFN-nZ231zglg&s=10",
@@ -19,7 +21,7 @@ export const PIZZA_PIES_SKEWERS_IMAGES: Record<string, string> = {
   "pz-17": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5QOeT0IWkm5HWia1UVdpE78ELje70fyWFoEKCZB5YhA&s=10",
   "pz-18": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5QOeT0IWkm5HWia1UVdpE78ELje70fyWFoEKCZB5YhA&s=10",
   "pz-19": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTCTOUeyL2gSXhmMjoVyPZz61Louj3Z_jH7dg9AM_gLQ&s=10",
-  "pz-20": "/images/items/pz-20.jpg",
+  "pz-20": `${BASE}images/items/pz-20.jpg`,
   "pz-21": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWmRQs62-VRkBHyrOU013tmoSOZXrtSwQf1cp0jGTGQg&s=10",
   "pz-22": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmk98YYI0IkHZQc97fTQJ4bIjHU8qD4XPqfv49qWUxmQ&s=10",
   "pz-23": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQN3W1z8jpkNITJ4oge_vBRpUxowweAPNiUYX2S5Sx4g&s=10",
@@ -58,7 +60,7 @@ export const PIZZA_PIES_SKEWERS_IMAGES: Record<string, string> = {
   "sk-4": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWuebIZeb1gR6-ESrw0JiDUh5RMKdhzMDZ-iz7-pYVLA&s=10",
   "sk-5": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXwty_qZd24dK3mQd9v1HKvKhU9PRMdTD25Br9Rgttgg&s=10",
   "sk-6": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh4gEEzaP8zlFQjkGN4JEDy4fp3A2LTmywyZJFBxI8Pg&s=10",
-  "sk-7": "/images/items/sk-7.jpg",
+  "sk-7": `${BASE}images/items/sk-7.jpg`,
   "sk-8": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVqozGp_8_4RrT1vCzW61pKasyNKUMTJmL-jdswUnKlg&s=10",
   "sk-9": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1hvTY0vQO3HiVIMNpS3xK5UT1EJZwG_VJ6QxyxR4H0A&s=10"
 };

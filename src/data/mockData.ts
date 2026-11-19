@@ -4,7 +4,8 @@ export const HERO_IMAGE = '/src/assets/images/sunouf_hero_ambiance_1792778588041
 export const SIGNATURE_DISH_IMAGE = '/src/assets/images/sunouf_signature_dish_1792778588641.jpg';
 export const ARTISAN_DESSERT_IMAGE = '/src/assets/images/sunouf_artisan_dessert_1792778589223.jpg';
 export const SPECIALTY_DRINK_IMAGE = '/src/assets/images/sunouf_specialty_drink_1792778590595.jpg';
-export const SUNOUF_LOGO = '/assets/aistudio/1792776933838_1__5a26254c.png';
+const BASE = (typeof import.meta !== 'undefined' && import.meta.env?.BASE_URL) || '/';
+export const SUNOUF_LOGO = `${BASE}assets/aistudio/1792776933838_1__5a26254c.png`;
 
 export const CATEGORIES: Category[] = [
   { id: 'all', name: 'الكل', iconName: 'Compass' },

@@ -98,7 +98,7 @@ export const QRCodeModal: React.FC<QRCodeModalProps> = ({
           {/* Brand header */}
           <div className="flex items-center justify-center gap-2.5 mb-3">
             <img
-              src="/assets/aistudio/1792776933838_1__5a26254c.png"
+              src={`${import.meta.env.BASE_URL}assets/aistudio/1792776933838_1__5a26254c.png`}
               alt="شعار صنوف SUNOUF"
               className="w-10 h-10 object-contain rounded-full bg-white p-0.5 border border-[#C29B38]/40 shadow-xs"
             />
@@ -152,7 +152,7 @@ export const QRCodeModal: React.FC<QRCodeModalProps> = ({
 
               {/* Center Sunouf Official Gold Emblem */}
               <circle cx="50" cy="50" r="13" fill="white" stroke="#C29B38" strokeWidth="1" />
-              <image href="/assets/aistudio/1792776933838_1__5a26254c.png" x="38" y="38" width="24" height="24" />
+              <image href={`${import.meta.env.BASE_URL}assets/aistudio/1792776933838_1__5a26254c.png`} x="38" y="38" width="24" height="24" />
 
               <rect x="8" y="46" width="5" height="5" fill="#C29B38" />
               <rect x="24" y="46" width="5" height="5" />
